@@ -1,0 +1,28 @@
+# Node
+node_modules/
+backend/node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Builds / caches
+dist/
+build/
+.cache/
+.next/
+out/
+coverage/
+
+# Env & secrets
+.env
+.env.*
+backend/.env
+
+# Editors/OS
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Big media (avoid pushing)
+video/
